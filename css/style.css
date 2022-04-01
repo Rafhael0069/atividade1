@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*----------------- Cabecalho -------------------*/
+.cabecalho {
+    border: 1px solid rgb(36, 36, 36);
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.logo {
+    align-items: center;
+    height: 100px;
+}
+
+.logo img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+header ul {
+    list-style: none;
+}
+
+.menu {
+    margin-right: 30px;
+}
+
+.navegacao {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.divisor {
+    width: 1px;
+    height: 25px;
+    background: rgb(92, 91, 91);
+    margin: 5px 15px;
+}
+
+.botao a {
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    font-size: 26px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.botao a:hover {
+    background-color: rgba(36, 36, 36, 0.801);
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*----------------- Conteúdo -------------------*/
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+}
+
+.conteudo-principal {
+    border: 1px solid rgb(36, 36, 36);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px 30px 20px 30px;
+    width: 70%;
+}
+
+.conteudo-principal h3 {
+    font-size: 30px;
+}
+
+.conteudo-principal p {
+    font-size: 20px;
+}
+
+.conteudo-lateral {
+    border: 1px solid rgb(36, 36, 36);
+    border-radius: 5px;
+    margin: 5px;
+    width: 30%;
+    padding-top: 20px;
+}
+
+.contatos {
+    height: 100%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+}
+.redes-sociais li {
+    margin: 5px 0;
+}
+
+.contatos a {
+    text-decoration: none;
+    color: rgb(53, 130, 245);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contatos a:hover {
+    background-color: rgb(53, 53, 53);
+    color: rgb(253, 253, 253);
+}
+
+.contatos h3 {
+    padding-left: 30px;
+}
+
+.contatos li {
+    padding-left: 25px;
+    color: rgb(53, 130, 245);
+}
+
+/*----------------- Rodapé -------------------*/
+
+.rodape {
+    border: 1px solid rgb(36, 36, 36);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    height: 50px;
+}
